@@ -12,7 +12,7 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="RecordSoundsViewController" customModule="PitchPerfect" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="UIButton">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="View" customClass="UIButton">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -148,6 +148,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BE6-Eq-yjY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="BE6-Eq-yjY" firstAttribute="bottom" secondItem="TaC-24-q54" secondAttribute="bottom" constant="16" id="I2b-pF-QjI"/>
                             <constraint firstItem="Twg-Jn-to4" firstAttribute="top" secondItem="BE6-Eq-yjY" secondAttribute="top" id="NGq-lA-efn"/>
